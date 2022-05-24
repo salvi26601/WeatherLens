@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , "sans-serif";
+}
+
+.body{
+    background-image: url("./Images/weather\ background.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.header{
+    padding-top: 20px;
+    margin: 0 10px 7%;
+}
+
+.heading{
+    font-weight: bold;
+    color: #4fa7bd;
+}
+
+#lens{ color: #2e9433; }
+
+.inputCity{
+    text-align: center;
+}
+
+#input-box{
+    margin-top: 1%;
+    background-color: #f0f8fa;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+#input-box:focus{
+    background-color: white;
+}
+
+.weather-body{
+    display: none;
+    margin: 7% 12%;
+    border: solid cadetblue;
+}
+
+.body .row{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1%;
+}
+
+.location{
+    text-align: left;   
+}
+
+.temp{
+    text-align: right;
+    margin-top: 7%;
+    padding-right: 7%;
+}
+
+#temperature{
+    font-size: 50px;
+}
+
+.status{
+    text-align: center;
+}
+
+#icon{
+    height: 40%;
+}
+
+#weather-status{
+    margin-top: -8%;
+}
